@@ -1,0 +1,46 @@
+#firstcolor {
+  color: #029557;
+}
+
+#secondcolor {
+  color: #3f632a;
+}
+
+#firstword {
+  color: red;
+}
+
+#secondword {
+  color: green;
+}
+
+#thirdword {
+  color: darkkhaki;
+}
+
+#firstpar {
+  background-color: #112a02;
+}
+
+#secondpar {
+  background-color: rgba(0, 42, 105, 0.5);
+}
+
+#thirdpar {
+  background-color: hsl(15, 100%, 78%);
+}
+
+.container {
+  background-color: #b0e0e6;
+  width: 200px;
+}
+
+.first {
+  background-color: #d3ffce;
+  width: 50%;
+}
+
+.second {
+  background-color: #ffd700;
+  width: 10em;
+}
