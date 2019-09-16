@@ -6,5 +6,50 @@
 
 </head>
 <body>
+  <form class="contactForm">
+    <label>Your Name: <br>
+      <input type="text" name="username" placeholder="Your name">
+    </label><br>
+    <label>Your E-mail Address: <br>
+      <input type="email" name="useremail" placeholder="Your e-mail">
+    </label><br>
+    <label>Your message: <br>
+      <textarea name="usertext" rows="8" cols="80" placeholder="Please describe your question or comment"></textarea>
+    </label><br>
+    <input type="submit" value="Send">
+  </form>
+  <br>
+  <form class="rentCarForm">
+    <label for="carrent">Car rental</label>
+    <fieldset>
+      <legend>Choose car class</legend>
+      <input type="radio" name="class" id="mini" value="mini">
+      <label for="mini">mini</label><br>
+      <input type="radio" name="class" id="economy" value="economy">
+      <label for="economy">economy</label><br>
+      <input type="radio" name="class" id="compact" value="compact">
+      <label for="compact">compact</label><br>
+      <input type="radio" name="class" id="SUV" value="SUV">
+      <label for="SUV">SUV</label><br>
+      <input type="radio" name="class" id="VAN" value="VAN">
+      <label for="VAN">VAN</label>
+    </fieldset>
+    <fieldset>
+      <legend>Choose optional equipment</legend>
+      <input type="checkbox" name="optional" id="childseat" value="childseat">
+      <label for="childseat">child seat</label><br>
+      <input type="checkbox" name="optional" id="GPS" value="GPS" checked>
+      <label for="GPS">GPS</label><br>
+      <input type="checkbox" name="optional" id="DVD" value="DVD">
+      <label for="DVD">DVD player</label><br>
+    </fieldset>
+    <label for="date">Rental start date</label>
+    <input type="date" id="date"><br>
+    <label for="number">Number of days</label>
+    <input type="text" id="number"><br>
+    <label for="pass">Your password</label>
+    <input type="password" id="pass"><br>
+    <input type="submit" value="Order now!">
+  </form>
 </body>
 </html>
